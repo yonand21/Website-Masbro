@@ -1,0 +1,92 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+
+}
+.jumbotron {
+  padding: 30px;
+  background-color: #1c201d;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+header {
+  display: inline;
+}
+main {
+  width: 100%;
+  padding: 0px;
+  overflow: auto;
+}
+
+.image {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card {
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 80px;
+  padding: 30px;
+  margin-top: 20px;
+  align-items: center;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+nav {
+  background-color: black;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+}
+nav a {
+  font-size: 150%;
+  font-weight: 500;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+nav a:hover {
+  color: red;
+  font-weight: bold;
+}
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+#content {
+  float: left;
+  width: 75%;
+}
+
+aside {
+  float: right;
+  width: 25%;
+  padding-left: 10px;
+  text-align: center;
+}
+
+aside img {
+    width: 200px;
+}
+
+footer {
+
+  padding: 20px;
+  color: white;
+  background-color: #00a2c6;
+  text-align: center;
+  font-weight: bold;
+}
+footer p {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
